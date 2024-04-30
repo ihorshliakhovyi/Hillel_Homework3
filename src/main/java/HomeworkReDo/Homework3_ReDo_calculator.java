@@ -32,6 +32,8 @@ public class Homework3_ReDo_calculator {
             case '%':
                 System.out.println("Result is:\n " + Methods2.leftover(num1, num2));
                 break;
+            case 'p':
+                System.out.println("Result is:\n " + Methods2.percentage(num1, num2));
             default:
                 System.out.println("Something went wrong:( Recheck and rerun your code");
         }

@@ -9,14 +9,21 @@ public class Methods2 {
     public static int subtraction(int n1, int n2){
         return n1-n2;
     }
-    public static int divide(int n1, int n2){
-        return n1/n2;
-    }
+    public static String divide(int n1, int n2){
+        String result = "Try again";
+        if (n2 != 0){
+            result = String.valueOf(n1/n2);
+        }
+        return result;
+      }
     public static int multi(int n1, int n2){
         return n1*n2;
     }
     public static int leftover(int n1, int n2){
         return n1%n2;
+    }
+    public static float percentage(int n1, int n2){
+        return (float) (n1 * n2) / 100;
     }
 
 
